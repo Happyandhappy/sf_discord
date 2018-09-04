@@ -9,9 +9,11 @@ client.on('ready',()=>{
 });
 
 client.on('message', msg=>{
-  if (msg.content === 'hi'){
-    msg.reply(csvCtrl.getCsvData(msg.content));
-  }
+    if (msg.author.id != client.user.id){
+        csvCtrl.getCsvData(msg.content).then(function(res){
+            msg.reply(res);
+        });
+    }
 });
 
 client.login(config.Token);
