@@ -1,5 +1,5 @@
-msg,msg2,flag
-hi,hi
-how are you?,fine and you?
-fine and you?,me too
-me too,cool
+msg,res,thread,channel,flag
+hi,hi,,486727605018427403,
+how are you?,fine and you?,,486727605018427403,
+fine and you?,me too,,486727605018427403,
+me too,https://cdn.discordapp.com/avatars/486216289279410176/b7d2c27711ab51dd10bc3a17632ada0d.png?size=2048,,486727605018427403,
